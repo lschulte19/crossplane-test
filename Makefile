@@ -2,7 +2,7 @@
 # Setup Project
 
 PROJECT_NAME ?= provider-oracle
-PROJECT_REPO := github.com/oracle/provider-oci
+PROJECT_REPO := github.com/lschulte19/crossplane-test
 
 export TERRAFORM_VERSION ?= 1.5.7
 
