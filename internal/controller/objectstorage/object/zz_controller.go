@@ -21,7 +21,7 @@ import (
 	"github.com/pkg/errors"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	v1alpha1 "github.com/lschulte/crossplane-test/apis/objectstorage/v1alpha1"
+	v1alpha1 "github.com/lschulte19/crossplane-test/apis/objectstorage/v1alpha1"
 )
 
 // Setup adds a controller that reconciles Object managed resources.

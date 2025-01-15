@@ -9,10 +9,10 @@ import (
 
 	"github.com/crossplane/upjet/pkg/controller"
 
-	bucket "github.com/lschulte/crossplane-test/internal/controller/objectstorage/bucket"
-	object "github.com/lschulte/crossplane-test/internal/controller/objectstorage/object"
-	objectlifecyclepolicy "github.com/lschulte/crossplane-test/internal/controller/objectstorage/objectlifecyclepolicy"
-	providerconfig "github.com/lschulte/crossplane-test/internal/controller/providerconfig"
+	bucket "github.com/lschulte19/crossplane-test/internal/controller/objectstorage/bucket"
+	object "github.com/lschulte19/crossplane-test/internal/controller/objectstorage/object"
+	objectlifecyclepolicy "github.com/lschulte19/crossplane-test/internal/controller/objectstorage/objectlifecyclepolicy"
+	providerconfig "github.com/lschulte19/crossplane-test/internal/controller/providerconfig"
 )
 
 // Setup creates all controllers with the supplied logger and adds them to

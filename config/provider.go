@@ -13,7 +13,7 @@ import (
 
 const (
 	resourcePrefix = "oci"
-	modulePath     = "github.com/lschulte/crossplane-test"
+	modulePath     = "github.com/lschulte19/crossplane-test"
 )
 
 //go:embed schema.json
