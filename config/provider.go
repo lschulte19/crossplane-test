@@ -13,7 +13,7 @@ import (
 
 const (
 	resourcePrefix = "oci"
-	modulePath     = "github.com/oracle/provider-oci"
+	modulePath     = "github.com/lschulte/crossplane-test"
 )
 
 //go:embed schema.json
@@ -33,27 +33,7 @@ func GetProvider() *ujconfig.Provider {
 	for _, configure := range []func(provider *ujconfig.Provider){
 		// add custom config functions
 		objectstorage.Configure,
-		identity.Configure,
-		core.Configure,
-		kms.Configure,
-		containerengine.Configure,
-		artifacts.Configure,
-		ons.Configure,
-		networkloadbalancer.Configure,
-		dns.Configure,
-		healthchecks.Configure,
-		functions.Configure,
-		networkfirewall.Configure,
-		logging.Configure,
-		monitoring.Configure,
-		loadbalancer.Configure,
-		servicemesh.Configure,
-		certificatesmanagement.Configure,
-		filestorage.Configure,
-		events.Configure,
-		vault.Configure,
-		events.Configure,
-		streaming.Configure,
+		
 	} {
 		configure(pc)
 	}
