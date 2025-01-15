@@ -7,27 +7,8 @@ import (
 
 	ujconfig "github.com/crossplane/upjet/pkg/config"
 
-	"github.com/lschulte19/crossplane-test/config/artifacts"
-	"github.com/lschulte19/crossplane-test/config/certificatesmanagement"
-	"github.com/lschulte19/crossplane-test/config/containerengine"
-	"github.com/lschulte19/crossplane-test/config/core"
-	"github.com/lschulte19/crossplane-test/config/dns"
-	"github.com/lschulte19/crossplane-test/config/events"
-	"github.com/lschulte19/crossplane-test/config/filestorage"
-	"github.com/lschulte19/crossplane-test/config/functions"
-	"github.com/lschulte19/crossplane-test/config/healthchecks"
-	"github.com/lschulte19/crossplane-test/config/identity"
-	"github.com/lschulte19/crossplane-test/config/kms"
-	"github.com/lschulte19/crossplane-test/config/loadbalancer"
-	"github.com/lschulte19/crossplane-test/config/logging"
-	"github.com/lschulte19/crossplane-test/config/monitoring"
-	"github.com/lschulte19/crossplane-test/config/networkfirewall"
-	"github.com/lschulte19/crossplane-test/config/networkloadbalancer"
 	"github.com/lschulte19/crossplane-test/config/objectstorage"
-	"github.com/lschulte19/crossplane-test/config/ons"
-	"github.com/lschulte19/crossplane-test/config/servicemesh"
-	"github.com/lschulte19/crossplane-test/config/streaming"
-	"github.com/lschulte19/crossplane-test/config/vault"
+
 )
 
 const (

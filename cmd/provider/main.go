@@ -31,12 +31,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics"
 
-	"github.com/oracle/provider-oracle/apis"
-	"github.com/oracle/provider-oracle/apis/v1alpha1"
-	"github.com/oracle/provider-oracle/config"
-	"github.com/oracle/provider-oracle/internal/clients"
-	"github.com/oracle/provider-oracle/internal/controller"
-	"github.com/oracle/provider-oracle/internal/features"
+	"github.com/lschulte19/crossplane-test/apis"
+	"github.com/lschulte19/crossplane-test/v1alpha1"
+	"github.com/lschulte19/crossplane-test/config"
+	"github.com/lschulte19/crossplane-test/internal/clients"
+	"github.com/lschulte19/crossplane-test/internal/controller"
+	"github.com/lschulte19/crossplane-test/internal/features"
 )
 
 func main() {

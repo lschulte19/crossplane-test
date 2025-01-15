@@ -1,4 +1,4 @@
-module github.com/oracle/provider-oracle
+module github.com/lschulte19/crossplane-test
 
 go 1.21
 

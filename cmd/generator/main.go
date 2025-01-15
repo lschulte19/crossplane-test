@@ -11,7 +11,7 @@ import (
 
 	"github.com/crossplane/upjet/pkg/pipeline"
 
-	"github.com/oracle/provider-oracle/config"
+	"github.com/lschulte19/crossplane-test/config"
 )
 
 func main() {
